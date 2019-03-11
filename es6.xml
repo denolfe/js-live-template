@@ -470,7 +470,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="ita" value="it('$description$', (done) =&gt; {&#10;  $END$&#10;});" description="BDD testing (Mocha, Jasmine, etc.): asynchronous &quot;it&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="ita" value="it('$description$', () =&gt; {&#10;  $END$&#10;});" description="BDD testing (Mocha, Jasmine, etc.): asynchronous &quot;it&quot;" toReformat="false" toShortenFQNames="true">
     <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
